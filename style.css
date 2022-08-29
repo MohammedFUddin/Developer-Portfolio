@@ -1,65 +1,77 @@
-body{
-    font-family: 'Poppins', sans-serif;
+body {
     margin: 0;
 }
-h1{
+
+h1 {
     font-size: 40px;
 }
-.color{
+
+.name {
     color: orange;
 }
-.flexible-container{
+
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
 }
-.half-width{
+
+.half-width {
     width: 50%;
     padding-left: 5%;
 }
-.half-width img{
-    width: 80%;
+
+.half-width img {
+    width: 70%;
 }
-.Link-button{
-    text-decoration: none;
+
+.hire-button {
     color: white;
     font-weight: 700;
-    background-image: linear-gradient(orange , tomato);
-    padding: 9px 40px;
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 20px;
     border-radius: 5px;
 }
-.top-banner{
+
+.top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+
 }
-.dream-big{
+
+.dream-big {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
 }
-.Experiance{
+
+.experience-area {
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
-    
 }
-.experience-item{
+
+.experience-item {
     width: 50%;
     margin-left: 5%;
     margin-right: 5%;
-    padding-left: 20px;
+    padding-left: 5%;
     border-radius: 10px;
-    box-shadow: 10px 10px 40px violet;
+    box-shadow: 10px 10px 40px gray;
 }
-#web-dev-exper{
+
+#full-stack-experience {
     border-left: 7px solid;
-    border-image: linear-gradient(blue,cyan);
-    border-image-slice: 1;
-    
-}
-#fullsweb-dev-exper{
-    border-left: 7px solid;
-    border-image: linear-gradient(orange,cyan);
+    border-image: linear-gradient(salmon, tomato);
     border-image-slice: 1;
 }
-footer p{
+
+#Babyweb-dev-experience {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+
+}
+
+footer p {
     text-align: center;
 }
